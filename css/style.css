@@ -28,9 +28,26 @@ body {
 	float : left;
 }
 
-.menuTop {
-	width : 120px;
-	float : right;
+ul {
+     list-style: none;
+		 margin : 0;
+		 padding-top: 10px;
+		 font-weight : solid;
+
+}
+
+ul > li {
+		margin: 0;
+		padding-top: 2px;
+		float: right;
+		position: relative;
+		height: 30px;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 2px;
+		width : 150px;
+		text-align: right;
 }
 
 #menu h1 {
@@ -39,15 +56,85 @@ body {
 	letter-spacing: 2px;
 }
 
-#menu a {
-	color : white;
-	text-decoration : none;
-	float : right;
-	margin-left : 0px;
-	font-weight : solid;
-	position : relative;
+
+
+ul > li > a {
+     padding: 10px;
+     color: white;
+     text-decoration: none;
 }
 
+ul > li ul {
+     padding: 0;
+     position: absolute;
+     display: none;
+     left: 0px;
+     top: 32px;
+     width: 150px;
+     text-align: left;
+     background-color: black;
+     border: 0px solid #ccc;
+}
+ul > li ul + li {
+	background-color: yellow;
+
+}
+
+ul > li ul ul {
+     left: 100px;
+     top: 0px;
+}
+
+ul > li ul li {
+     margin: 0;
+     padding: 0;
+     position: relative;
+     float: none;
+     height: auto;
+}
+
+ul > li ul li a {
+     padding: 10px 20px;
+     color: white;
+     text-decoration: none;
+     display: block;
+}
+
+ul > li > a:hover,
+ul > li:hover > a {
+     color: yellow;
+     text-decoration: none;
+}
+
+ul li:hover > ul {
+     display: block;
+}
+
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+     text-decoration: none;
+     color: yellow;
+     background-color: black;
+}
+
+.znak {
+	background: white;
+	width: 0px;
+	height:0px;
+	margin: 0 auto;
+	border-bottom : 8px solid black;
+	border-top : 8px solid white;
+	border-left : 8px solid white;
+	border-right : 8px solid white;
+	float : left;
+}
+
+.znak + div, .preznak {
+	background: white;
+	width : 67px;
+	height: 16px;
+		float : left;
+}
 
 
 #slaider {
