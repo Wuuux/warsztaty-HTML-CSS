@@ -1,0 +1,272 @@
+body {
+	font-family: 'Raleway', arial,sans-serif;
+	box-sizing : border-box;
+}
+
+.clear {
+	clear : both;
+}
+
+#menu {
+	width :100%;
+	background : black;
+	color : white;
+	float : left;
+}
+
+#menu h1 {
+	float : left;
+	font-size : 14px; 
+	letter-spacing: 2px;
+}
+
+.green {
+	color : #24baa0;
+}
+
+#menu a {
+	color : white;
+	text-decoration : none;
+	float : right;
+	margin-left : 50px;
+	font-weight : solid;
+}
+
+.container {
+	width: 1057px;
+	margin: 0 auto;
+}
+
+#slaider {
+	width :100%;
+	padding : 30px 0; 
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #d1d0d8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #d1d0d8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #d1d0d8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #d1d0d8); /* Standard syntax */
+}
+
+#slaider h1 {
+	width: 78px;
+	float : left;
+	font-size : 60px; 
+	padding-top : 80px;
+}
+
+#armchair {
+	width : 470px;
+	height : 337px;
+	background-image : url("../images/black_chair.png");
+	float : left;
+}
+
+#info {
+	width : 431px;
+	height : 337px;
+	float : left;
+	text-align : center;
+	padding-top: 60px;
+}
+
+#info h2{
+font-size : 20px;
+margin : 0 auto;
+display : block;
+}
+#info p{
+font-size : 10px;
+margin-top : 30px;
+padding: 0 30px 0;
+}
+
+#przycisk {
+	width : 150px;
+	height : 40px;
+	border-radius : 10px;
+	background : #24baa0;
+	color : white;
+	border : 0;
+	margin-top: 10px;
+}
+
+#images {
+	width: 100%;
+	background : white;
+	height : 300px;
+}
+
+.column1 {
+	width : 331px;
+	margin-right : 16px;
+	float : left;
+	background : white;
+}
+
+.column2 {
+	width : 331px;
+	float : left;
+	margin : 0 16px;
+	background : white;
+}
+.column3 {
+	width : 331px;
+	float : left;
+	margin-left : 16px;
+	background : white;
+}
+#img_left {
+	width : 310px;
+	height : 225px;
+	margin : 15px;
+	position : relative;
+
+background-image : url("../images/box1_img.jpg");
+border : 1px solid white;
+
+}
+
+#img_center {
+	width : 310px;
+	height : 225px;
+	margin : 15px;
+	background-image : url("../images/box2_img.jpg");
+	border : 1px solid white;
+		position : relative;
+
+}
+
+#img_right {
+	width : 310px;
+	height : 250px;
+	margin : 15px;
+	background : white;
+	border : 1px solid black;
+}
+
+.semiwhite {
+	width : 300px;
+	height : 75px;
+	position : absolute;
+	bottom : 25px;
+	background : rgba(255,255,255,0.3);
+	padding : 5px;	
+}
+
+
+#cennik {
+	background : grey;
+
+		height : 600px;
+}
+.column h1 {
+	font-size: 16px;
+	margin-left: 5px;
+}
+.column h1:after {
+	content : '';
+	display : block;
+	width : 138px;
+	height : 7px;
+	background-color : #24baa0;
+	margin : 2px 0 0;
+}
+
+
+.column p {
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+#cennik h1 {
+	margin : 10px 0 10px 0;
+}
+
+.winieta {
+	width : 329px;
+	height : 450px;
+	background : red;
+	border : 1px solid black;
+	float : left;
+	margin : 10px 10px 0 10px;
+	position : relative;
+	text-align : center;
+}
+.winieta .kolko {
+	width : 60px;
+	height: 60px;
+	border-radius:30px;
+	border : 1px solid black;
+	position:absolute;
+	left : 130px;
+	top : -35px;
+	background : red;
+}
+.winieta .kolko2 {
+	width : 30px;
+	height: 30px;
+	border-radius:15px;
+	border : 1px solid black;
+	position:absolute;
+	left : 145px;
+	top : -20px;
+	background : black;
+}
+.winieta .kolko3 {
+	width : 124px;
+	height: 124px;
+	border-radius:62px;
+	border : 1px solid black;
+	position:absolute;
+	left : 90px;
+	top : 60px;
+	background : white;
+}
+
+.winieta .button {
+	width : 120px;
+	height: 30px;
+	border-radius:10px;
+	border : 0;
+	position:absolute;
+	bottom : 30px;
+	left : 90px;
+	background : #24baa0;
+	color : white;
+	text-align : center;
+	padding-top : 5px; 
+}
+
+.winieta .raw1 {
+	width : 100%;
+	height : 40px;
+	position:absolute;
+	top : 200px;
+	background : grey;	
+}
+
+.winieta .raw2 {
+	width : 100%;
+	height : 40px;
+	position:absolute;
+	top : 240px;
+	background : lightgrey;	
+}
+
+.winieta .raw3 {
+	width : 100%;
+	height : 40px;
+	position:absolute;
+	top : 280px;
+	background : grey;	
+}
+
+.winieta .raw4 {
+	width : 100%;
+	height : 40px;
+	position:absolute;
+	top : 320px;
+	background : lightgrey;
+}
+
+
