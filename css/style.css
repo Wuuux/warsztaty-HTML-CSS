@@ -7,29 +7,9 @@ body {
 	clear : both;
 }
 
-#menu {
-	width :100%;
-	background : black;
-	color : white;
-	float : left;
-}
-
-#menu h1 {
-	float : left;
-	font-size : 14px; 
-	letter-spacing: 2px;
-}
-
-.green {
-	color : #24baa0;
-}
-
-#menu a {
-	color : white;
-	text-decoration : none;
-	float : right;
-	margin-left : 50px;
-	font-weight : solid;
+.page {
+	width : 1200px;
+	margin : 0 auto;
 }
 
 .container {
@@ -37,9 +17,42 @@ body {
 	margin: 0 auto;
 }
 
+.green {
+	color : #24baa0;
+}
+
+#menu {
+	width :100%;
+	background : black;
+	color : white;
+	float : left;
+}
+
+.menuTop {
+	width : 120px;
+	float : right;
+}
+
+#menu h1 {
+	float : left;
+	font-size : 14px;
+	letter-spacing: 2px;
+}
+
+#menu a {
+	color : white;
+	text-decoration : none;
+	float : right;
+	margin-left : 0px;
+	font-weight : solid;
+	position : relative;
+}
+
+
+
 #slaider {
 	width :100%;
-	padding : 30px 0; 
+	padding : 30px 0;
 	background: white; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(white, #d1d0d8); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white, #d1d0d8); /* For Opera 11.1 to 12.0 */
@@ -50,7 +63,7 @@ body {
 #slaider h1 {
 	width: 78px;
 	float : left;
-	font-size : 60px; 
+	font-size : 60px;
 	padding-top : 80px;
 }
 
@@ -150,7 +163,7 @@ border : 1px solid white;
 	position : absolute;
 	bottom : 25px;
 	background : rgba(255,255,255,0.3);
-	padding : 5px;	
+	padding : 5px;
 }
 
 
@@ -234,7 +247,7 @@ border : 1px solid white;
 	background : #24baa0;
 	color : white;
 	text-align : center;
-	padding-top : 5px; 
+	padding-top : 5px;
 }
 
 .winieta .raw1 {
@@ -242,7 +255,7 @@ border : 1px solid white;
 	height : 40px;
 	position:absolute;
 	top : 200px;
-	background : grey;	
+	background : grey;
 }
 
 .winieta .raw2 {
@@ -250,7 +263,7 @@ border : 1px solid white;
 	height : 40px;
 	position:absolute;
 	top : 240px;
-	background : lightgrey;	
+	background : lightgrey;
 }
 
 .winieta .raw3 {
@@ -258,7 +271,7 @@ border : 1px solid white;
 	height : 40px;
 	position:absolute;
 	top : 280px;
-	background : grey;	
+	background : grey;
 }
 
 .winieta .raw4 {
@@ -268,5 +281,3 @@ border : 1px solid white;
 	top : 320px;
 	background : lightgrey;
 }
-
-
